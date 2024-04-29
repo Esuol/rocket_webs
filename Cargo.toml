@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["examples/chat", "examples/config"]
+
+[workspace.package]
+publish = false
+edition = "2021"
+
+[workspace.dependencies]
+rocket = "0.5"
